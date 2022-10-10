@@ -9,10 +9,11 @@ import UIKit
 // Version Information: version 1
 
 class ViewController: UIViewController {
-
-    //Result Label
     
-    @IBOutlet weak var ResultLabel: UILabel!
+    //Result Label
+    @IBOutlet weak var proccessLabel: UILabel!
+    
+    @IBOutlet weak var resultLabel: UILabel!
     
     override func viewDidLoad()
     {
@@ -28,10 +29,10 @@ class ViewController: UIViewController {
     
     @IBAction func NumberButton_Pressed(_ sender: UIButton)
     {
-        var button = sender as UIButton
-//        resultLabel.text = button.titleLabel!.text
         
-
+        //        resultLabel.text = button.titleLabel!.text
+        
+        
     }
     
     
@@ -39,6 +40,10 @@ class ViewController: UIViewController {
     {
         
     }
+    
+    
+    
+    
     
 }
 

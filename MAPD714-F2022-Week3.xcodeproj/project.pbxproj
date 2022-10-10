@@ -9,23 +9,25 @@
 /* Begin PBXBuildFile section */
 		558954A128DFFE5C007F3762 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558954A028DFFE5C007F3762 /* AppDelegate.swift */; };
 		558954A328DFFE5C007F3762 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558954A228DFFE5C007F3762 /* SceneDelegate.swift */; };
-		558954A528DFFE5C007F3762 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558954A428DFFE5C007F3762 /* ViewController.swift */; };
 		558954A828DFFE5C007F3762 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 558954A628DFFE5C007F3762 /* Main.storyboard */; };
 		558954AA28DFFE5E007F3762 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 558954A928DFFE5E007F3762 /* Assets.xcassets */; };
 		558954AD28DFFE5E007F3762 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 558954AB28DFFE5E007F3762 /* LaunchScreen.storyboard */; };
 		558954B528E0C291007F3762 /* Calculator-App-12.png in Resources */ = {isa = PBXBuildFile; fileRef = 558954B428E0C291007F3762 /* Calculator-App-12.png */; };
+		6232E33C28F3A33100D78804 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6232E33B28F3A33100D78804 /* MainViewController.swift */; };
+		6232E34128F3B76800D78804 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6232E33E28F3B76800D78804 /* Stack.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5589549D28DFFE5C007F3762 /* MAPD714-F2022-Week3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MAPD714-F2022-Week3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		558954A028DFFE5C007F3762 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		558954A228DFFE5C007F3762 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		558954A428DFFE5C007F3762 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		558954A728DFFE5C007F3762 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		558954A928DFFE5E007F3762 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		558954AC28DFFE5E007F3762 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		558954AE28DFFE5E007F3762 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		558954B428E0C291007F3762 /* Calculator-App-12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Calculator-App-12.png"; sourceTree = "<group>"; };
+		6232E33B28F3A33100D78804 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		6232E33E28F3B76800D78804 /* Stack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Stack.swift; path = "../../../../github/ass2/MAPD714F2022-group2-assignment2/MAPD714F2022-group2-assignment2/Stack.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,9 +60,10 @@
 		5589549F28DFFE5C007F3762 /* MAPD714-F2022-Week3 */ = {
 			isa = PBXGroup;
 			children = (
+				6232E33D28F3B74200D78804 /* stack */,
 				558954A028DFFE5C007F3762 /* AppDelegate.swift */,
+				6232E33B28F3A33100D78804 /* MainViewController.swift */,
 				558954A228DFFE5C007F3762 /* SceneDelegate.swift */,
-				558954A428DFFE5C007F3762 /* ViewController.swift */,
 				558954B428E0C291007F3762 /* Calculator-App-12.png */,
 				558954A628DFFE5C007F3762 /* Main.storyboard */,
 				558954A928DFFE5E007F3762 /* Assets.xcassets */,
@@ -68,6 +71,14 @@
 				558954AE28DFFE5E007F3762 /* Info.plist */,
 			);
 			path = "MAPD714-F2022-Week3";
+			sourceTree = "<group>";
+		};
+		6232E33D28F3B74200D78804 /* stack */ = {
+			isa = PBXGroup;
+			children = (
+				6232E33E28F3B76800D78804 /* Stack.swift */,
+			);
+			path = stack;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,9 +153,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				558954A528DFFE5C007F3762 /* ViewController.swift in Sources */,
+				6232E34128F3B76800D78804 /* Stack.swift in Sources */,
 				558954A128DFFE5C007F3762 /* AppDelegate.swift in Sources */,
 				558954A328DFFE5C007F3762 /* SceneDelegate.swift in Sources */,
+				6232E33C28F3A33100D78804 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,7 +303,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = Z8J9NPL68D;
+				DEVELOPMENT_TEAM = 4VR458LPYH;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "MAPD714-F2022-Week3/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -304,11 +316,14 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "ca.centennialcollege.MAPD714-F2022-Week3";
+				PRODUCT_BUNDLE_IDENTIFIER = "ca.centennialcollege.MAPD714-F2022-Week4";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -319,7 +334,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = Z8J9NPL68D;
+				DEVELOPMENT_TEAM = 4VR458LPYH;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "MAPD714-F2022-Week3/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -332,11 +347,14 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "ca.centennialcollege.MAPD714-F2022-Week3";
+				PRODUCT_BUNDLE_IDENTIFIER = "ca.centennialcollege.MAPD714-F2022-Week4";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
