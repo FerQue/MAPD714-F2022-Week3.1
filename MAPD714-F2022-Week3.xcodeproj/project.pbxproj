@@ -14,7 +14,7 @@
 		558954AD28DFFE5E007F3762 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 558954AB28DFFE5E007F3762 /* LaunchScreen.storyboard */; };
 		558954B528E0C291007F3762 /* Calculator-App-12.png in Resources */ = {isa = PBXBuildFile; fileRef = 558954B428E0C291007F3762 /* Calculator-App-12.png */; };
 		6232E33C28F3A33100D78804 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6232E33B28F3A33100D78804 /* MainViewController.swift */; };
-		6232E34128F3B76800D78804 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6232E33E28F3B76800D78804 /* Stack.swift */; };
+		62F1C09C28F4E9DC00F9E711 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F1C09B28F4E9DC00F9E711 /* Stack.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +27,7 @@
 		558954AE28DFFE5E007F3762 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		558954B428E0C291007F3762 /* Calculator-App-12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Calculator-App-12.png"; sourceTree = "<group>"; };
 		6232E33B28F3A33100D78804 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
-		6232E33E28F3B76800D78804 /* Stack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Stack.swift; path = "../../../../github/ass2/MAPD714F2022-group2-assignment2/MAPD714F2022-group2-assignment2/Stack.swift"; sourceTree = "<group>"; };
+		62F1C09B28F4E9DC00F9E711 /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,7 +76,7 @@
 		6232E33D28F3B74200D78804 /* stack */ = {
 			isa = PBXGroup;
 			children = (
-				6232E33E28F3B76800D78804 /* Stack.swift */,
+				62F1C09B28F4E9DC00F9E711 /* Stack.swift */,
 			);
 			path = stack;
 			sourceTree = "<group>";
@@ -153,7 +153,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6232E34128F3B76800D78804 /* Stack.swift in Sources */,
+				62F1C09C28F4E9DC00F9E711 /* Stack.swift in Sources */,
 				558954A128DFFE5C007F3762 /* AppDelegate.swift in Sources */,
 				558954A328DFFE5C007F3762 /* SceneDelegate.swift in Sources */,
 				6232E33C28F3A33100D78804 /* MainViewController.swift in Sources */,
