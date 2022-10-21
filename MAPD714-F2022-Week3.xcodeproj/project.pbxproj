@@ -27,6 +27,7 @@
 		558954AE28DFFE5E007F3762 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		558954B428E0C291007F3762 /* Calculator-App-12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Calculator-App-12.png"; sourceTree = "<group>"; };
 		6232E33B28F3A33100D78804 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		62D8BEEE29023652003E136B /* Script.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = Script.sh; sourceTree = "<group>"; };
 		62F1C09B28F4E9DC00F9E711 /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -66,6 +67,7 @@
 				558954A228DFFE5C007F3762 /* SceneDelegate.swift */,
 				558954B428E0C291007F3762 /* Calculator-App-12.png */,
 				558954A628DFFE5C007F3762 /* Main.storyboard */,
+				62D8BEEE29023652003E136B /* Script.sh */,
 				558954A928DFFE5E007F3762 /* Assets.xcassets */,
 				558954AB28DFFE5E007F3762 /* LaunchScreen.storyboard */,
 				558954AE28DFFE5E007F3762 /* Info.plist */,
