@@ -87,6 +87,8 @@ class MainViewController: UIViewController {
     // click listeneer for Number buttons 1,2,3,4,5,6,7,8,9
     @IBAction func btnNumbersPressed(_ sender: UIButton) { // Done
         
+    
+        
         let proccessText = getDefaultProccesslabel(text: proccessLabel.text!)
         proccessLabel.text = proccessText + String(sender.tag)
         let input: String = proccessLabel.text!
@@ -134,6 +136,7 @@ class MainViewController: UIViewController {
                 }
             }
             // set new value
+            lastProccessInput=String(value)
             proccessLabel.text = proccessLabel.text! + String(value)
             
         case 33: // "/"
@@ -157,6 +160,150 @@ class MainViewController: UIViewController {
             if(!isEqualSpace){
                 proccessLabel.text = proccessLabel.text! + " " + "+" + " "
             }
+            
+            
+        case 40: // "sin"
+            
+            var value = sin(Double(lastProccessInput)! * Double.pi / 180)
+            value = round(value * 100000000) / 100000000.0
+           
+            print(value)
+            
+            // Remove last number
+            for char in proccessLabel.text!.reversed(){
+                if(char != " "){
+                    proccessLabel.text!.removeLast()
+                }else{
+                    break
+                }
+            }
+            lastProccessInput=String(value)
+            proccessLabel.text = proccessLabel.text! + String(value)
+            
+            
+            
+            
+        case 41: // "cos"
+            
+            
+            var value = cos(Double(lastProccessInput)! * Double.pi / 180)
+            value = round(value * 100000000) / 100000000.0
+           
+            print(value)
+            
+            // Remove last number
+            for char in proccessLabel.text!.reversed(){
+                if(char != " "){
+                    proccessLabel.text!.removeLast()
+                }else{
+                    break
+                }
+            }
+            lastProccessInput=String(value)
+            proccessLabel.text = proccessLabel.text! + String(value)
+            
+            
+            
+            
+        case 42: // "tan"
+            
+         
+            var value = tan(Double(lastProccessInput)! * Double.pi / 180)
+            value = round(value * 100000000) / 100000000.0
+           
+            print(value)
+            
+            // Remove last number
+            for char in proccessLabel.text!.reversed(){
+                if(char != " "){
+                    proccessLabel.text!.removeLast()
+                }else{
+                    break
+                }
+            }
+            lastProccessInput=String(value)
+            proccessLabel.text = proccessLabel.text! + String(value)
+            
+            
+            
+        case 43: // "10x"
+            
+     
+            
+               var value = 10 * Double(lastProccessInput)!
+               value = round(value * 100000000) / 100000000.0
+              
+               print(value)
+               
+               // Remove last number
+               for char in proccessLabel.text!.reversed(){
+                   if(char != " "){
+                       proccessLabel.text!.removeLast()
+                   }else{
+                       break
+                   }
+               }
+               lastProccessInput=String(value)
+               proccessLabel.text = proccessLabel.text! + String(value)
+               
+               
+            
+            
+        case 44: // "√x"
+            
+            if(!isEqualSpace){
+                proccessLabel.text = proccessLabel.text! + " " + "+" + " "
+            }
+            
+        case 45: // "x²"
+            
+         
+            
+               var value = Double(lastProccessInput)! * Double(lastProccessInput)!
+               value = round(value * 100000000) / 100000000.0
+              
+               print(value)
+               
+               // Remove last number
+               for char in proccessLabel.text!.reversed(){
+                   if(char != " "){
+                       proccessLabel.text!.removeLast()
+                   }else{
+                       break
+                   }
+               }
+               lastProccessInput=String(value)
+               proccessLabel.text = proccessLabel.text! + String(value)
+               
+               
+            
+        case 46: // "π"
+            
+        var   value = round(Double.pi * 100000000) / 100000000.0
+            
+                    proccessLabel.text =
+            lastProccessInput + " " + "*" + " " + String(value)
+            
+            lastProccessInput = String(value)
+            
+        case 47: // "Rand"
+            
+            
+            let proccessText = getDefaultProccesslabel(text: proccessLabel.text!)
+            
+    
+            proccessLabel.text = proccessText + generateRandomNumber()
+            let input: String = proccessLabel.text!
+            
+            // split the input to list
+            let subs: [String] = input.split(separator: " ").map({ substr in String(substr) })
+            
+            lastProccessInput = subs[(subs.count)-1]
+            print(String(lastProccessInput))
+            
+            // To Autoamtic result when we enter the Numbers
+            doResult()
+            
             
         default:
             print("Invalid..")
@@ -285,6 +432,11 @@ extension Double {
         return self.truncatingRemainder(dividingBy: 1) == 0 ? String(format: "%.0f", self) : String(self)
     }
 }
+
+func generateRandomNumber() -> String {
+    return String(Float(arc4random()) / Float(UInt32.max))
+}
+
 
 // Check if this string is number
 extension String  {

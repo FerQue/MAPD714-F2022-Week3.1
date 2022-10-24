@@ -3,4 +3,70 @@
    uuid = "92C34B53-321F-42CB-8B9D-CE1D5FF0F471"
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "834E1BCF-49E0-4770-B111-A8509F3D7587"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MAPD714-F2022-Week3/MainViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "88"
+            endingLineNumber = "88"
+            landmarkName = "btnNumbersPressed(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BE0330DA-F3D5-47AC-B899-D24869629DC1"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MAPD714-F2022-Week3/MainViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "122"
+            endingLineNumber = "122"
+            landmarkName = "btnOperationPressed(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "BE0330DA-F3D5-47AC-B899-D24869629DC1 - a05ab19f8ac719a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MAPD714_F2022_Week3.MainViewController.btnOperationPressed(__C.UIButton) -&gt; ()"
+                  moduleName = "MAPD714-F2022-Week3"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hsanimeh/Desktop/college/ios/me/assigment2/MAPD714-F2022-assigment2/MAPD714-F2022-Week3/MainViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "122"
+                  endingLineNumber = "122"
+                  offsetFromSymbolStart = "1088">
+               </Location>
+               <Location
+                  uuid = "BE0330DA-F3D5-47AC-B899-D24869629DC1 - a05ab19f8ac719a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MAPD714_F2022_Week3.MainViewController.btnOperationPressed(__C.UIButton) -&gt; ()"
+                  moduleName = "MAPD714-F2022-Week3"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hsanimeh/Desktop/college/ios/me/assigment2/MAPD714-F2022-assigment2/MAPD714-F2022-Week3/MainViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "122"
+                  endingLineNumber = "122"
+                  offsetFromSymbolStart = "1284">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>

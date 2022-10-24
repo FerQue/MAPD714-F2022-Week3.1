@@ -1,9 +1,19 @@
-//
-//  AppDelegate.swift
-//  MAPD714-F2022-Week3
-//
-//  Created by Victor Quezada on 2022-09-24.
-//
+
+// Authors
+
+// Name: Hisahm Abu Sanimeh
+// StudentID: 301289364
+
+// Name: Fernando Quezada
+// StudentID: 301286477
+
+// Date: 09-Oct-2022
+
+// App description:
+// Assignment 2 Part 2 -Basic Calculator Functions.
+
+// Version: xCode 14.0.1
+
 
 import UIKit
 
