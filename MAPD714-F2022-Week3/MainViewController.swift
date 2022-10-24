@@ -252,7 +252,7 @@ class MainViewController: UIViewController {
         case 44: // "√x"
             
             if(!isEqualSpace){
-                proccessLabel.text = proccessLabel.text! + " " + "+" + " "
+                proccessLabel.text = proccessLabel.text! + " " + "/" + " "
             }
             
         case 45: // "x²"
@@ -282,7 +282,7 @@ class MainViewController: UIViewController {
         var   value = round(Double.pi * 100000000) / 100000000.0
             
                     proccessLabel.text =
-            lastProccessInput + " " + "*" + " " + String(value)
+            proccessLabel.text! + " " + "*" + " " + String(value)
             
             lastProccessInput = String(value)
             
